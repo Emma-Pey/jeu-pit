@@ -1,7 +1,7 @@
 # Manuel du joueur – Panique en GCU
+---
 Bienvenue dans le jeu **Panique en GCU**. Vous êtes étudiant TC et votre ami de GCU vous appelle en catastrophe à 23h30 en vous annonçant que le projet sur lequel il avait tant travaillé a disparu, alors qu’il doit le rendre avant minuit ce soir !
 Il ne connaît pas bien sa machine Linux, alors il fait appel à vous et à vos connaissances pour lui sauver la mise. Vous devrez lui dicter les commandes qui lui permettront de rendre son projet sur Moodle. 
----
 ## Déroulement du jeu
 Exécutez `lancer_jeu.sh` pour commencer la partie. 
 ---
