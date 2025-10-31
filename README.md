@@ -1,20 +1,26 @@
 # Manuel du joueur – Panique en GCU
----
 Bienvenue dans le jeu **Panique en GCU**. Vous êtes étudiant TC et votre ami de GCU vous appelle en catastrophe à 23h30 en vous annonçant que le projet sur lequel il avait tant travaillé a disparu, alors qu’il doit le rendre avant minuit ce soir !
 Il ne connaît pas bien sa machine Linux, alors il fait appel à vous et à vos connaissances pour lui sauver la mise. Vous devrez lui dicter les commandes qui lui permettront de rendre son projet sur Moodle. 
-## Déroulement du jeu
-Exécutez `lancer_jeu.sh` pour commencer la partie. 
+
 ---
+## Déroulement du jeu
+
+Tapez `chmod +x lancer_jeu.sh` pou rendre le fichier exécutable.
+Exécutez `lancer_jeu.sh` pour commencer la partie. 
+
 Votre ami se rappelle avoir nommé son fichier `projet` ou `rendu`. Ce fichier est protégé par un mot de passe, et contient une faute. À vous de dicter les bonnes commandes à votre ami pour : 
 - le retrouver, 
 - le déverrouiller, 
 - et le corriger.
+
 Finalement, il faudra 
 - l’archiver sous le nom `rendu_GCU.tar`,
 - le déposer dans le dossier nommé `Moodle`
-- et valider le rendu en lançant le script `depot_moodle.sh`. 
+- et valider le rendu en lançant le script `depot_moodle.sh`.
+
 Vous pouvez à tout moment consulter l’heure en affichant le contenu du fichier `horloge.txt`. 
 *Bonne chance, vous avez jusqu’à minuit.*
+
 ---
 ## Indices
 - Votre ami n’est pas un professionnel de la cybersécurité, retrouver le mot de passe devrait être simple comme bonjour. 
@@ -25,7 +31,6 @@ Vous pouvez à tout moment consulter l’heure en affichant le contenu du fichie
 ```
 base64 -d mot_secret.txt
 ```
----
 ### Déchiffrer un fichier GPG
 ```
 gpg --batch --yes --passphrase "monmotdepasse" -o fichier_dechiffre.txt -d fichier_chiffre.txt.gpg
@@ -36,7 +41,7 @@ gpg --batch --yes --passphrase "monmotdepasse" -o fichier_dechiffre.txt -d fichi
 sudo apt install gnupg gnupg-agent
 ```
 > Si la commande gpg ne fonctionne pas
-
+---
 # Infos
 L’arborescence des fichiers, le mot de passe, les modifications à réaliser changent à chaque lancement du jeu. Vous pouvez donc rejouer autant de fois que vous le voulez !
 ## Explication des scripts
