@@ -5,7 +5,7 @@ Il ne connaît pas bien sa machine Linux, alors il fait appel à vous et à vos 
 ---
 ## Déroulement du jeu
 
-Tapez `chmod +x lancer_jeu.sh` pou rendre le fichier exécutable.
+Tapez `chmod +x lancer_jeu.sh` pour rendre le fichier exécutable.
 Exécutez `lancer_jeu.sh` pour commencer la partie. 
 
 Votre ami se rappelle avoir nommé son fichier `projet` ou `rendu`. Ce fichier est protégé par un mot de passe, et contient une faute. À vous de dicter les bonnes commandes à votre ami pour : 
