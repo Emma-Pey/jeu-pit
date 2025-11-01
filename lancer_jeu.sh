@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Installation 
+sudo apt install gnupg gnupg-agent
+
 # Dossier racine
 mkdir fichiers
 
