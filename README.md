@@ -3,10 +3,14 @@ Bienvenue dans le jeu **Panique en GCU**. Vous êtes étudiant TC et votre ami d
 Il ne connaît pas bien sa machine Linux, alors il fait appel à vous et à vos connaissances pour lui sauver la mise. Vous devrez lui dicter les commandes qui lui permettront de rendre son projet sur Moodle. 
 
 ---
-## Déroulement du jeu
+## Démarrer le jeu
 
 Tapez `chmod +x lancer_jeu.sh` pour rendre le fichier exécutable.
+
 Exécutez `lancer_jeu.sh` pour commencer la partie. 
+> Note : le fichier installe la commande `gpg`. Vous serez sûrement amené à rentrer `y` pour confirmer l'installation. 
+
+## Déroulement du jeu
 
 Votre ami se rappelle avoir nommé son fichier `projet` ou `rendu`. Ce fichier est protégé par un mot de passe, et contient une faute. À vous de dicter les bonnes commandes à votre ami pour : 
 - le retrouver, 
