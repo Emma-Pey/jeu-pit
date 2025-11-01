@@ -77,7 +77,7 @@ date +%s > debut.txt
 chmod +x depot_moodle.sh
 chmod +x update_clock.sh
 ./update_clock.sh & 
-echo $! > temp_verif/clock.pid
+echo $! > clock.pid
 
 
 echo "DE : prof-gcu@insa-lyon.fr"
