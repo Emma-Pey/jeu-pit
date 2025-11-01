@@ -57,7 +57,7 @@ for phrase in "${phrases_corrigees[@]}"; do
     if [[ "$contenu" == "$phrase" ]]; then
         echo "Le projet a bien été déposé à temps sur Moodle. Félicitations, vous validez votre année."
         rm -r temp_verif
-        kill $(cat temp_verif/clock.pid) 2>/dev/null
+        kill $(cat clock.pid) 2>/dev/null
         exit 0
     fi
 done
