@@ -50,7 +50,7 @@ phrases_corrigees=(
 )
 
 # Lecture du contenu du fichier
-contenu=$(cat "temp_verif/")
+contenu=$(cat "temp_verif/rendu_GCU.txt")
 
 # Vérification
 for phrase in "${phrases_corrigees[@]}"; do
