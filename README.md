@@ -38,7 +38,7 @@ base64 -d mot_secret.txt
 ```
 ### Déchiffrer un fichier GPG
 ```
-gpg --batch --yes --passphrase "monmotdepasse" -o fichier_dechiffre.txt -d fichier_chiffre.txt.gpg
+gpg --batch --yes --passphrase "motdepasse" -o dechiffre.txt -d chiffre.txt.gpg
 ```
 > Cette commande déchiffre un fichier `.gpg` en utilisant une phrase secrète. Le fichier déchiffré est enregistré sous `fichier_dechiffre.txt`.
 #### Astuce
