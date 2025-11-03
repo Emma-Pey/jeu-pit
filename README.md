@@ -4,6 +4,7 @@ Il ne connaît pas bien sa machine Linux, alors il fait appel à vous et à vos 
 
 ---
 ## Démarrer le jeu
+Rentrez `git clone https://github.com/Emma-Pey/jeu-pit.git` pour télécharger le jeu.
 
 Tapez `chmod +x lancer_jeu.sh` pour rendre le fichier exécutable.
 
