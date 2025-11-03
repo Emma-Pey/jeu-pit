@@ -8,7 +8,7 @@ Rentrez `git clone https://github.com/Emma-Pey/jeu-pit.git` pour télécharger l
 
 Tapez `chmod +x lancer_jeu.sh` pour rendre le fichier exécutable.
 
-Exécutez `lancer_jeu.sh` pour commencer la partie. 
+Rentrez `./lancer_jeu.sh` pour commencer la partie. 
 > Note : le fichier installe la commande `gpg`. Vous serez sûrement amené à rentrer `y` pour confirmer l'installation. 
 
 ## Déroulement du jeu
@@ -41,11 +41,7 @@ base64 -d mot_secret.txt
 gpg --batch --yes --passphrase "motdepasse" -o dechiffre.txt -d chiffre.txt.gpg
 ```
 > Cette commande déchiffre un fichier `.gpg` en utilisant une phrase secrète. Le fichier déchiffré est enregistré sous `fichier_dechiffre.txt`.
-#### Astuce
-```
-sudo apt install gnupg gnupg-agent
-```
-> Si la commande gpg ne fonctionne pas
+
 ---
 # Infos
 L’arborescence des fichiers, le mot de passe, les modifications à réaliser changent à chaque lancement du jeu. Vous pouvez donc rejouer autant de fois que vous le voulez !
