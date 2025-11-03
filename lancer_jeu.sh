@@ -79,7 +79,16 @@ chmod +x update_clock.sh
 ./update_clock.sh & 
 echo $! > clock.pid
 
-
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
 echo "DE : prof-gcu@insa-lyon.fr"
 echo "A : eleve-gcu@insa-lyon.fr"
 echo "Il est 23h30. Vous avez jusqu’à minuit pour rendre votre projet"
