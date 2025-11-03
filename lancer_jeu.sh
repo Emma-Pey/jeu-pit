@@ -10,7 +10,7 @@ mkdir Moodle
 
 # Sous-dossiers aléatoires
 
-mots=("cours" "td" "tp" "exos" "devoirs" "révisions" "fiches" "polycopié" "annales" "corrigés" "supports" "slides" "résumé" "bibliographie" "projet" "rapport" "mémoire" "soutenance" "notes")
+mots=("cours" "td" "tp" "exos" "devoirs" "révisions" "fiches" "polycopié" "annales" "corrigés" "supports" "slides" "résumé" "bibliographie" "rapport" "mémoire" "soutenance" "notes")
 
 
 for i in {1..7}; do
